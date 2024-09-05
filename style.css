@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    background-color: #000; 
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.page-header {
+    background-color: #28a745;
+    color: #fff; 
+    text-align: center;
+    padding: 20px 0;
+}
+
+.main-description {
+    background-color: #fff; 
+    color: #000;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 95%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 1%;
+}
+
+.training-registration {
+    background-color: #fff; 
+    margin: 20px auto;
+    padding: 20px;
+    width: 95%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;   
+}
+
+.training-item {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    width: 30%;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    color: #000;
+}
+
+.training-item:hover {
+    background-color: #e0e0e0;
+}
+
+.training-type {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.training-type.physical {
+    background-color: #28a745; 
+}
+
+.training-type.mental {
+    background-color: #ffc107; 
+}
+
+.training-type.technique {
+    background-color: #17a2b8; 
+}
+
+footer {
+    background-color: #28a745; 
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
